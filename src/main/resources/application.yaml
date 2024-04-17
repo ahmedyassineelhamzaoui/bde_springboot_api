@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bde_project
+    username: postgres
+    password: yassine
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  #file
+  servlet:
+    multipart:
+      max-file-size: 2MB
+
+#cloudinary
+cloudinary:
+  cloud_name: dxyfqtzbw
+  api_key: 318247495885531
+  api_secret: kMliQ1L9592XGHwmbjGeLfD636E
+
